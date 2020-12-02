@@ -1,1 +1,48 @@
 /* Other rules */
+/*  COMMON RULES  */
+
+body {
+  background-color: white;
+  font-family: "Times new Roman, sans serif";
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 35px;
+  padding-left: 30px;
+  letter-spacing: -2.5px;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/*   HEADER   */
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.border {
+  border-bottom: 1px solid lightgray;
+}
+
+/* MAIN */
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
